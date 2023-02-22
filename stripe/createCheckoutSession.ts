@@ -10,7 +10,7 @@ export async function createCheckoutSession(uid: string) {
     .doc(uid)
     .collection("checkout_sessions")
     .add({
-      price: "price_XXXXX",
+      price: "price_1MbxYGJCRjUgXBprNeNEBdFH",
       success_url: window.location.origin,
       cancel_url: window.location.origin,
     });
